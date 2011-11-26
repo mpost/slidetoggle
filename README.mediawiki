@@ -1,0 +1,13 @@
+== Slide Toggle
+
+An android example application demonstrating the slide toggle ui element.
+
+Reuse and tinkering is encouraged.
+
+=== Author ===
+
+The code is created by Moritz Post.
+
+=== License ===
+
+All code can be reused under the terms of the Eclipse Public License.
