@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidetoggle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/slidetoggle_background">
+
+    <ImageView
+        android:id="@+id/image_left_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dip"
+        android:src="@drawable/star_disabled" />
+
+    <ImageView
+        android:id="@+id/image_right_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dip"
+        android:src="@drawable/note_disabled" />
+
+    <com.moritzpost.slidetoggle.SlideToggle
+        android:id="@+id/slidetoggle_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/slidetoggle_slider"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="-100px"
+            android:gravity="fill"
+            android:minWidth="680px"
+            android:paddingLeft="100px"
+            android:paddingRight="100px" >
+
+            <LinearLayout
+                android:id="@+id/slidetoggle_slider_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/item_background"
+                android:gravity="center_vertical"
+                android:minWidth="480px"
+                android:paddingLeft="12dip" >
+
+                <TextView
+                    android:id="@+id/text_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.moritzpost.slidetoggle.SlideToggle>
+
+</RelativeLayout>
