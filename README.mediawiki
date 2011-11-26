@@ -2,6 +2,8 @@
 
 An android example application demonstrating the slide toggle ui element.
 
+The following google+ page holds a video showing the implementation in action: [[https://plus.google.com/u/0/110380137820502036004/posts/ieAgduPzJiJ]]
+
 Reuse and tinkering is encouraged.
 
 === Author ===
