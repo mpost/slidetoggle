@@ -1,4 +1,4 @@
-== Slide Toggle
+== Slide Toggle ==
 
 An android example application demonstrating the slide toggle ui element.
 
